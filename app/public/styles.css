@@ -1,0 +1,46 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: azure;
+  color: dimgrey;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.header {
+  background: honeydew;
+  padding: 10px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 10px;
+}
+
+.main h2 {
+  width: 100%;
+}
+
+.main .lorem {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main .lorem .lorem__block {
+  width: 50%;
+}
+
+.image--svg svg {
+  max-width: 50%;
+}
+
+
+.footer {
+  color: grey;
+  padding: 10px;
+  background-color: ivory;
+}
